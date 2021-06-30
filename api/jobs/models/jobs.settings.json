@@ -1,0 +1,36 @@
+{
+  "info": {
+    "name": "Jobs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Skills": {
+      "type": "text"
+    },
+    "Market": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "internship",
+        "fulltime",
+        "contract"
+      ]
+    },
+    "Location": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "jobs"
+}

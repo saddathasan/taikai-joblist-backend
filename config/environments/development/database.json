@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "backend",
+        "host": "taikaijoblist.4phq7.mongodb.net",
+        "srv": "true",
+        "port": 27017,
+        "username": "admin",
+        "password": "Admin314"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": true
+      }
+    }
+  }
+}
